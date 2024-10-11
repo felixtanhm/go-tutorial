@@ -68,6 +68,5 @@ func (d deck) readFromFile(filename string) deck {
 		os.Exit(1)
 	}
 	stringVar := strings.Split(string(byteSlice), ",")
-	fmt.Println(stringVar)
 	return stringVar
 }
